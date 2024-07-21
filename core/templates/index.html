@@ -1,22 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Online Marketplace</title>
-</head>
-<body bgcolor="#f0f8ff">
+{% extends "base.html" %}
 
-<h1>Welcome to the Online Marketplace</h1>
-<p>this is the paragraph</p>
+{% block title %}
+    Welcome 🙏
+{% endblock %}
 
-<ul>
-    <li>hello</li>
-    <li>hello2</li>
-    <li>hello3</li>
-</ul>
-
-</body>
-</html>
+{% block content %}
+    <h1>This is my main page, change <code>body bgcolor</code> later</h1>
+{% endblock %}
